@@ -1,5 +1,9 @@
 function App() {
-  return <div className=''>App</div>
+  return (
+    <>
+      <div className='overflow-hidden text-9xl'>App</div>
+    </>
+  )
 }
 
 export default App
