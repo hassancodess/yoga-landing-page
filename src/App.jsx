@@ -1,7 +1,13 @@
+// import Hero from './components/Hero'
+
+import Navbar from './components/Navbar'
+
 function App() {
   return (
     <>
-      <div className='overflow-hidden text-9xl'>App</div>
+      <div className='overflow-hidden'>
+        <Navbar />
+      </div>
     </>
   )
 }
