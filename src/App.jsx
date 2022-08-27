@@ -1,5 +1,6 @@
 // import Hero from './components/Hero'
 
+import Classes from './components/Classes'
 import Header from './components/Header'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className='overflow-hidden'>
         <Header />
+        <Classes />
       </div>
     </>
   )
