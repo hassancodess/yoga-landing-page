@@ -3,9 +3,9 @@ import { pricing } from '../data/data'
 function Pricing() {
   return (
     <>
-      <section className='p-4 pt-20 pb-28npm run serve mb-16 bg-slate-50'>
+      <section className='p-4 pt-20 pb-28 mb-16 bg-slate-50'>
         <div className='max-w-6xl mx-auto container'>
-          <div className='py-16 text-center space-y-6'>
+          <div className='pb-16  text-center space-y-6'>
             <h1 className='text-slate-300 text-md uppercase  tracking-widest'>
               Pricing tables
             </h1>

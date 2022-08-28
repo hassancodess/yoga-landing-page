@@ -67,3 +67,24 @@ export const pricing = [
     ],
   },
 ]
+
+export const blogs = [
+  {
+    img: Yoga,
+    title: 'Young women doing yoga',
+    desc: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.',
+    date: new Date('2018-12-31'),
+  },
+  {
+    img: Yoga,
+    title: 'Young women doing yoga',
+    desc: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.',
+    date: new Date('2018-12-27'),
+  },
+  {
+    img: Yoga,
+    title: 'Young women doing yoga',
+    desc: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.',
+    date: new Date('2018-12-25'),
+  },
+]
