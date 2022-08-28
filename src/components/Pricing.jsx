@@ -3,8 +3,14 @@ import { pricing } from '../data/data'
 function Pricing() {
   return (
     <>
-      <section className='p-4 pt-20 pb-28 mb-16 bg-slate-50'>
+      <section className='p-4 pt-20 pb-28npm run serve mb-16 bg-slate-50'>
         <div className='max-w-6xl mx-auto container'>
+          <div className='py-16 text-center space-y-6'>
+            <h1 className='text-slate-300 text-md uppercase  tracking-widest'>
+              Pricing tables
+            </h1>
+            <h1 className='text-6xl font-light'>Membership Cards</h1>
+          </div>
           {/* Grid Container */}
           <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-x-8 gap-y-20 '>
             {pricing.map((item, idx) => {
