@@ -12,7 +12,7 @@ function Classes() {
             <h1 className='text-5xl'>Choose your Level & Focus</h1>
           </div>
           {/* Images Grid  */}
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+          <div className='gap-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {imgData.map((item, idx) => {
               return (
                 <Image
