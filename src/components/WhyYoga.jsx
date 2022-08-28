@@ -4,7 +4,7 @@ import { AiFillCheckCircle } from 'react-icons/ai'
 function WhyYoga() {
   return (
     <>
-      <section className='p-4 pb-16 '>
+      <section className='p-4 py-16 mb-16 '>
         <div className='container mx-auto max-w-6xl'>
           <div className='grid grid-cols-2 gap-6'>
             <div></div>
@@ -26,7 +26,7 @@ function WhyYoga() {
                 {/* Feature 1 */}
                 <div className='text-fuchsia-400 space-x-4 flex items-center'>
                   <AiFillCheckCircle size={25} />
-                  <p className='text-xl tracking-wide tracking-wide'>
+                  <p className='text-xl tracking-wide '>
                     Yoga boosts brain power
                   </p>
                 </div>

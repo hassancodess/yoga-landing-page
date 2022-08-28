@@ -3,6 +3,7 @@
 import Classes from './components/Classes'
 import Features from './components/Features'
 import Header from './components/Header'
+import Pricing from './components/Pricing'
 import WhyYoga from './components/WhyYoga'
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
       <div className='overflow-hidden'>
         <Header />
         <WhyYoga />
-        <Classes />
         <Features />
+        <Classes />
+        <Pricing />
       </div>
     </>
   )

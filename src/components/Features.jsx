@@ -11,7 +11,7 @@ function Features() {
   ]
   return (
     <>
-      <section className='py-16 p-4 bg-slate-50'>
+      <section className='py-24 p-4 bg-slate-50 mb-16'>
         <div className='container mx-auto max-w-6xl'>
           {/* Grid Container */}
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8'>
