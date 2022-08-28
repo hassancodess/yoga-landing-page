@@ -4,7 +4,7 @@ import { imgData } from '../data/data'
 function Classes() {
   return (
     <>
-      <section className='p-4 bg-white py-32'>
+      <section className='p-4 bg-white pb-16'>
         <div className='container mx-auto max-w-6xl'>
           {/* Content */}
           <div className='font-light text-center mb-10'>

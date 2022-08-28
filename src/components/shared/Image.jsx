@@ -5,7 +5,7 @@ function Image({ img, title, desc }) {
     <>
       <div className='h-96 overflow-hidden group '>
         {/* Overlay */}
-        <div className='h-96 w-full  bg-green-400/70  flex-col justify-center space-y-4 text-center hidden group-hover:flex '>
+        <div className='h-96 w-full  bg-green-400/70  flex-col justify-center space-y-4 text-center hidden group-hover:flex group-hover:duration-1000  '>
           <h3 className='font-medium text-2xl'>{title}</h3>
           <p>{desc}</p>
         </div>
