@@ -6,8 +6,6 @@ function WhyYoga() {
     <>
       <section className='p-4 pb-16 '>
         <div className='container mx-auto max-w-6xl'>
-          {/* <div className='flex flex-col lg:flex-row '> */}
-          {/* <img src={Yoga} alt='' className='h-1/3' /> */}
           <div className='grid grid-cols-2 gap-6'>
             <div></div>
             <div className='flex flex-col  space-y-10 items-start'>
@@ -64,7 +62,6 @@ function WhyYoga() {
             </div>
           </div>
         </div>
-        {/* </div> */}
       </section>
     </>
   )
